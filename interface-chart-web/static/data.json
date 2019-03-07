@@ -1,0 +1,452 @@
+[{
+  "node": "ALS",
+  "plant": "Local Not 42",
+  "rela": {
+    "QUISS_TF (Powertrain)": "DB Link",
+    "SAP Plant Maintenance": "RFC"
+  }
+}, {
+  "node": "APDM/CASCADE (Dadong)",
+  "plant": "Dadong",
+  "rela": {
+    "DOM": "MQ",
+    "IPS-Q (Dadong)": "DB Access",
+    "SPLUNK": "Share Folder"
+  }
+}, {
+  "node": "APDM/CASCADE (Tiexi)",
+  "plant": "Tiexi",
+  "rela": {
+    "DOM": "MQ",
+    "IPS-Q (Tiexi)": "DB Access",
+    "SPLUNK": "Share Folder"
+  }
+}, {
+  "node": "AQM2",
+  "plant": "Local Not 42",
+  "rela": {
+    "OPC-LaKa (Dadong)": "DB Link"
+  }
+}, {
+  "node": "BVIS (Dadong)",
+  "plant": "Dadong",
+  "rela": {
+    "IPS-Q (Dadong)": "KM"
+  }
+}, {
+  "node": "BVIS (Tiexi)",
+  "plant": "Tiexi",
+  "rela": {
+    "IPS-Q (Tiexi)": "KM"
+  }
+}, {
+  "node": "Cold Test Archiving (Powertrain)",
+  "plant": "Powertrain",
+  "rela": {}
+}, {
+  "node": "Einstein",
+  "plant": "AG",
+  "rela": {
+    "IPS-L OSM (Dadong)": "MQ",
+    "IPS-L OSM (Tiexi)": "MQ"
+  }
+}, {
+  "node": "FMS_NG (Dadong)",
+  "plant": "Dadong",
+  "rela": {
+    "IPS-Q (Dadong)": "DB Access"
+  }
+}, {
+  "node": "FMS_NG (Tiexi)",
+  "plant": "Tiexi",
+  "rela": {
+    "IPS-Q (Tiexi)": "DB Access"
+  }
+}, {
+  "node": "IPM (Dadong)",
+  "plant": "Dadong",
+  "rela": {}
+}, {
+  "node": "IPM (Tiexi)",
+  "plant": "Tiexi",
+  "rela": {}
+}, {
+  "node": "IPM (Powertrain)",
+  "plant": "Powertrain",
+  "rela": {
+    "EQRP": "MQ"
+  }
+}, {
+  "node": "IPS-C (Engine)",
+  "plant": "Powertrain",
+  "rela": {
+    "FeNATA (Engine)": "MQ",
+    "IPS-T (Powertrain)": "KM",
+    "MDBB": "MQ",
+    "SAP": "MQ"
+  }
+}, {
+  "node": "IPS-C (HVB)",
+  "plant": "Powertrain",
+  "rela": {
+    "SAP": "MQ"
+  }
+}, {
+  "node": "IPS-L OSM (Dadong)",
+  "plant": "Dadong",
+  "rela": {
+    "APDM/CASCADE (Dadong)": "MQ",
+    "BVIS (Dadong)": "MQ",
+    "Control Room (Dadong)": "DB Access",
+    "DOM": "MQ",
+    "Einstein": "MQ",
+    "IPS-L OSM (Tiexi)": "DB Link",
+    "IPS-L PPE (Dadong)": "KM, DB Link",
+    "IPS-L PPE (Tiexi)": "DB Link",
+    "IPS-Q (Dadong)": "KM, DB Link",
+    "IPS-T (Dadong)": "KM",
+    "LTERM": "MQ, C:D",
+    "M-FSCS": "MQ",
+    "Pick By X (Dadong)": "MQ",
+    "Production Control Portal (Dadong)": "DB Link",
+    "Production IPS Cockpit Monitor /MPN (Dadong)": "MQ",
+    "Regular Planning Tool (Dadong)": "DB Link",
+    "SAP": "MQ, DB Link"
+  }
+}, {
+  "node": "IPS-L OSM (Tiexi)",
+  "plant": "Tiexi",
+  "rela": {
+    "APDM/CASCADE (Tiexi)": "MQ",
+    "BVIS (Tiexi)": "MQ",
+    "Control Room (Tiexi)": "DB Access",
+    "DOM": "MQ",
+    "Einstein": "MQ",
+    "IPS-L PPE (Tiexi)": "KM, DB Link",
+    "IPS-Q (Tiexi)": "KM, DB Link",
+    "IPS-T (Tiexi)": "KM",
+    "LIS (Tiexi)": "KM",
+    "LTERM": "MQ, C:D",
+    "M-FSCS": "MQ",
+    "Pick By X (Tiexi)": "MQ",
+    "Production Control Portal (Tiexi)": "DB Link",
+    "Production IPS Cockpit Monitor /MPN (Tiexi)": "MQ",
+    "Regular Planning Tool (Tiexi)": "DB Link",
+    "SAP": "MQ, DB Link"
+  }
+}, {
+  "node": "IPS-L PPE (Dadong)",
+  "plant": "Dadong",
+  "rela": {
+    "Control Room (Dadong)": "DB Access",
+    "FMS_NG (Dadong)": "KM",
+    "IPS-L OSM (Dadong)": "KM, DB Link",
+    "IPS-L OSM (Tiexi)": "DB Link",
+    "IPS-L PPE (Tiexi)": "DB Link",
+    "IPS-T (Dadong)": "KM",
+    "OPC-LaKa (Dadong)": "MQ",
+    "PPZ (Dadong)": "KM, DB Link",
+    "Production Control Portal (Dadong)": "DB Link",
+    "Production IPS Cockpit Monitor /MPN (Dadong)": "MQ",
+    "Regular Planning Tool (Dadong)": "DB Link",
+    "SAP": "MQ"
+  }
+}, {
+  "node": "IPS-L PPE (Tiexi)",
+  "plant": "Tiexi",
+  "rela": {
+    "Control Room (Tiexi)": "DB Access",
+    "FMS_NG (Tiexi)": "KM",
+    "IPS-L OSM (Tiexi)": "KM, DB Link",
+    "IPS-T (Tiexi)": "KM",
+    "PPZ (Tiexi)": "KM, DB Link",
+    "Production Control Portal (Tiexi)": "DB Link",
+    "Production IPS Cockpit Monitor /MPN (Tiexi)": "MQ",
+    "Regular Planning Tool (Tiexi)": "DB Link",
+    "SAP": "MQ, RFC"
+  }
+}, {
+  "node": "IPS-Q (Dadong)",
+  "plant": "Dadong",
+  "rela": {
+    "IPS-L OSM (Dadong)": "DB Link",
+    "OPC-LaKa (Dadong)": "DB Link",
+    "Production Control Portal (Dadong)": "DB Link"
+  }
+}, {
+  "node": "IPS-Q (Tiexi)",
+  "plant": "Tiexi",
+  "rela": {
+    "IPS-L OSM (Tiexi)": "DB Link",
+    "Production Control Portal (Tiexi)": "DB Link"
+  }
+}, {
+  "node": "IPS-T (Dadong)",
+  "plant": "Dadong",
+  "rela": {
+    "OPC-LaKa (Dadong)": "DB Link",
+    "SAP": "RFC",
+    "SIMDB": "DB Link"
+  }
+}, {
+  "node": "IPS-T (Powertrain)",
+  "plant": "Powertrain",
+  "rela": {
+    "SAP": "RFC",
+    "SIMDB": "DB Link"
+  }
+}, {
+  "node": "IPS-T (Tiexi)",
+  "plant": "Tiexi",
+  "rela": {
+    "IPS-T Page Server (Tiexi)": "SMTP",
+    "LIS (Tiexi)": "KM",
+    "SAP": "MQ",
+    "SIMDB": "DB Link"
+  }
+}, {
+  "node": "KAPRO",
+  "plant": "AG",
+  "rela": {
+    "Regular Planning Tool (Tiexi)": "DB Link",
+    "Regular Planning Tool (Dadong)": "DB Link"
+  }
+}, {
+  "node": "LIS (Tiexi)",
+  "plant": "Tiexi",
+  "rela": {
+    "BVIS (Tiexi)": "KM",
+    "IPS-T (Tiexi)": "KM"
+  }
+}, {
+  "node": "LMR",
+  "plant": "Local Not 42",
+  "rela": {
+    "OPC-LaKa (Dadong)": "DB Link"
+  }
+}, {
+  "node": "LSA",
+  "plant": "Local Not 42",
+  "rela": {
+    "IPS-Q (Dadong)": "TCP",
+    "IPS-Q (Tiexi)": "TCP"
+  }
+}, {
+  "node": "LTERM",
+  "plant": "AG",
+  "rela": {
+    "IPS-L OSM (Dadong)": "MQ",
+    "IPS-L OSM (Tiexi)": "MQ"
+  }
+}, {
+  "node": "PKI CBB (Dadong)",
+  "plant": "Dadong",
+  "rela": {}
+}, {
+  "node": "PKI CBB (Tiexi)",
+  "plant": "Tiexi",
+  "rela": {}
+}, {
+  "node": "PPZ (Dadong)",
+  "plant": "Dadong",
+  "rela": {
+    "IPS-L PPE (Dadong)": "KM",
+    "ProFEP (Dadong)": "DB Link"
+  }
+}, {
+  "node": "PPZ (Tiexi)",
+  "plant": "Tiexi",
+  "rela": {
+    "IPS-L PPE (Tiexi)": "KM",
+    "ProFEP (Tiexi)": "DB Link"
+  }
+}, {
+  "node": "ProFEP (Dadong)",
+  "plant": "Dadong",
+  "rela": {}
+}, {
+  "node": "ProFEP (Tiexi)",
+  "plant": "Tiexi",
+  "rela": {}
+}, {
+  "node": "PROFIS",
+  "plant": "Local Not 42",
+  "rela": {
+    "Production Control Portal (Dadong)": "DB Link",
+    "Production Control Portal (Tiexi)": "DB Link"
+  }
+}, {
+  "node": "PSS (Powertrain)",
+  "plant": "Powertrain",
+  "rela": {
+    "PSS-portal (Powertrain)": "DB Access",
+    "TDI (Powertrain)": "DB Link"
+  }
+}, {
+  "node": "PSS-portal (Powertrain)",
+  "plant": "Powertrain",
+  "rela": {}
+}, {
+  "node": "PWO (Dadong)",
+  "plant": "Dadong",
+  "rela": {
+    "SAP": "RFC",
+    "PWO Reporter": "DB Access"
+  }
+}, {
+  "node": "PWO (Tiexi)",
+  "plant": "Tiexi",
+  "rela": {
+    "SAP": "RFC",
+    "PWO Reporter": "DB Access"
+  }
+}, {
+  "node": "QUISS_TF (Powertrain)",
+  "plant": "Powertrain",
+  "rela": {
+    "ALS": "DB Link"
+  }
+}, {
+  "node": "SAP",
+  "plant": "All",
+  "rela": {
+    "Press Shop Intelligent Quality System": "RFC",
+    "PWO (Dadong)": "RFC",
+    "PWO (Tiexi)": "RFC",
+    "PSS (Powertrain)": "RFC",
+    "IPS-C (Engine)": "MQ",
+    "IPS-C (HVB)": "MQ",
+    "ALS": "RFC",
+    "KSI (Dadong)": "RFC",
+    "KSI (Tiexi)": "RFC"
+  }
+}, {
+  "node": "SLTAIS",
+  "plant": "AG",
+  "rela": {
+    "IPS-Q (Dadong)": "MQ",
+    "IPS-Q (Tiexi)": "MQ"
+  }
+}, {
+  "node": "Quality Reporting System",
+  "plant": "All",
+  "rela": {}
+}, {
+  "node": "Mini Program Production Volume",
+  "plant": "All",
+  "rela": {}
+}, {
+  "node": "TechnoStep",
+  "plant": "Local Not 42",
+  "rela": {
+    "OPC-LaKa (Dadong)": "MQ"
+  }
+}, {
+  "node": "SPLUNK",
+  "plant": "AG",
+  "rela": {}
+}, {
+  "node": "Regular Planning Tool (Tiexi)",
+  "plant": "Tiexi",
+  "rela": {}
+}, {
+  "node": "Regular Planning Tool (Dadong)",
+  "plant": "Dadong",
+  "rela": {}
+}, {
+  "node": "PWO Reporter",
+  "plant": "All",
+  "rela": {}
+}, {
+  "node": "Quality Center",
+  "plant": "All",
+  "rela": {}
+}, {
+  "node": "Intelligent Operation Platform",
+  "plant": "All",
+  "rela": {}
+}, {
+  "node": "Production Control Portal (Tiexi)",
+  "plant": "Tiexi",
+  "rela": {}
+}, {
+  "node": "Production Control Portal (Dadong)",
+  "plant": "Dadong",
+  "rela": {}
+}, {
+  "node": "DOM",
+  "plant": "AG",
+  "rela": {}
+}, {
+  "node": "EFZ (Tiexi)",
+  "plant": "Tiexi",
+  "rela": {}
+}, {
+  "node": "Control Room (Tiexi)",
+  "plant": "Tiexi",
+  "rela": {}
+}, {
+  "node": "Control Room (Dadong)",
+  "plant": "Dadong",
+  "rela": {}
+}, {
+  "node": "Production IPS Cockpit Monitor /MPN (Tiexi)",
+  "plant": "Tiexi",
+  "rela": {}
+}, {
+  "node": "Production IPS Cockpit Monitor /MPN (Dadong)",
+  "plant": "Dadong",
+  "rela": {}
+}, {
+  "node": "MDBB",
+  "plant": "AG",
+  "rela": {}
+}, {
+  "node": "TDI (Powertrain)",
+  "plant": "Powertrain",
+  "rela": {}
+}, {
+  "node": "KSI (Tiexi)",
+  "plant": "Tiexi",
+  "rela": {
+    "SAP": "RFC"
+  }
+}, {
+  "node": "KSI (Dadong)",
+  "plant": "Dadong",
+  "rela": {
+    "SAP": "RFC"
+  }
+}, {
+  "node": "Press Shop Intelligent Quality System",
+  "plant": "Tiexi",
+  "rela": {}
+}, {
+  "node": "FeNATA (Engine)",
+  "plant": "Powertrain",
+  "rela": {}
+}, {
+  "node": "FeNATA (HVB)",
+  "plant": "Powertrain",
+  "rela": {}
+}, {
+  "node": "M-FSCS",
+  "plant": "Local Not 42",
+  "rela": {}
+}, {
+  "node": "EQRP",
+  "plant": "AG",
+  "rela": {}
+}, {
+  "node": "SIMDB",
+  "plant": "Local Not 42",
+  "rela": {}
+}, {
+  "node": "IMW",
+  "plant": "All",
+  "rela": {}
+}, {
+  "node": "OPC-LaKa (Dadong)",
+  "plant": "Dadong",
+  "rela": {}
+}]
